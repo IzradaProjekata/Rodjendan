@@ -8,11 +8,7 @@ export default function WishlistPage() {
   const [items, setItems] = useState(wishes);
 
   const togglePurchased = (id) => {
-    setItems(items.map(item => 
-      item.id === id 
-        ? { ...item, purchasedBy: item.purchasedBy ? null : 'Kupac' }
-        : item
-    ));
+    alert('Javi se Luki da se dogovorite')
   };
 
   const purchasedCount = items.filter(item => item.purchasedBy).length;
@@ -116,14 +112,15 @@ export default function WishlistPage() {
 
                   {/* Toggle button */}
                   <button
-                    // onClick={() => togglePurchased(item.id)}
+                    onClick={() => togglePurchased(item.id)}
+                    disabled={!!item.purchasedBy}
                     className={`w-full py-2 px-4 rounded-lg font-medium text-sm transition-all ${
                       item.purchasedBy
                         ? 'bg-emerald-200 text-emerald-900 hover:bg-emerald-300'
                         : 'bg-blue-500 text-white hover:bg-blue-600 shadow-md hover:shadow-lg'
                     }`}
                   >
-                    {item.purchasedBy ? 'Označi kao kupljena' : 'Kupi me!'}
+                    {item.purchasedBy ? 'Kupljena' : 'Kupi me!'}
                   </button>
                 </div>
               </div>
