@@ -17,11 +17,11 @@ export const wishes = [
     },
     {
       id: 3,
-      name: "O'Neil bermude",
-      link: 'https://rs.beosport.com/o-neill-essentials-cargo-sorc-2700080-17028',
+      name: "Majica (XL)",
+      link: 'https://rs.beosport.com/ngn-tennis-motion-majica-38042-nvy',
       purchasedBy: null,
       category: 'Odeća',
-      image: '/sorc.jpg',
+      image: '/majica.jpg',
     },
     {
       id: 4,
@@ -46,5 +46,13 @@ export const wishes = [
       purchasedBy: null,
       category: 'Oprema',
       image: '/kamera.webp',
+    },
+    {
+      id: 7,
+      name: 'Set alata',
+      link: 'https://www.okov.rs/sr/proizvodi/garnitura-nasadnih-kljuceva-14-551-u-pvc-koferu-neo',
+      purchasedBy: null,
+      category: 'Alat',
+      image: '/kljucevi.png',
     },
   ]
