@@ -25,7 +25,7 @@ export const wishes = [
     },
     {
       id: 4,
-      name: 'Legend farmerke',
+      name: 'Legend farmerke (34/34)',
       link: 'https://www.legend.rs/model-muske-regular-farmerke-ravnih-nogavica-model-110/17759',
       purchasedBy: null,
       category: 'Odeća',
