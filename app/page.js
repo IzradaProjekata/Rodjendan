@@ -100,7 +100,7 @@ export default function WishlistPage() {
                 {/* Link and button - flex spacer */}
                 <div className="mt-auto space-y-3">
                   <a
-                    href={item.link}
+                    href={item.purchasedBy ? '#' : item.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-medium transition-colors group/link"
