@@ -11,7 +11,7 @@ export const wishes = [
       id: 2,
       name: 'UV majica (2x)',
       link: 'https://www.decathlon.rs/p/365654-380621-muska-majica-sa-uv-zastitom-za-surfovanje.html',
-      purchasedBy: null,
+      purchasedBy: 'Anja',
       category: 'Odeća',
       image: '/majica.avif',
     },
